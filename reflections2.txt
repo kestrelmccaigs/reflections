@@ -28,3 +28,11 @@ would get its own commit & message, the typo would get its
 own commit, and the new entry to the second reflections
 file would get ITS own commit. And that way all three are
 much easier to track down in case something went wrong.
+
+4. What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+A. Branches are helpful if you are experimenting with
+something new that you are not yet sure will work, or when
+you are doing big changes (changing the language or usability)
+and still want a stable version of the code to share with
+others.
