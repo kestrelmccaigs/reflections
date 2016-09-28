@@ -1,0 +1,41 @@
+git diff
+// Takes two arguements, the two commit IDs to compare,
+and outputs a comparison of those two files
+
+git clone
+// Takes one argument; the url of the repository to clone
+and outputs a copy of that repository to your computer
+
+git checkout
+// Takes one argument; the commit ID to restore, and sets
+the repository to the time of that ID
+
+git log
+// Takes no arguments. Will output a list of commits on
+the repository, starting with the most recent (use down
+arrow to navigate)
+
+git init
+// takes no arguments. Preps a directory for commits
+
+git add
+//Takes one argument; the file to be added to the "staging
+area", which is where files go before they are committed
+
+git reset
+// Takes one argument; the file to be removed from the
+staging area, and removes that file from the staging area
+
+git status
+// Takes no arguments. Returns the status of the current
+directory, including any files in the staging area and a
+list of files NOT in the staging area or not committed
+
+git commit
+// Takes no arguments (although it can take a message if
+it is relatively short. use:
+  git commit -m "[message]"
+). In my configuration, it opens a file in Sublime Text
+in which to fill out a (potentially long) message. Save
+that file and quit and the message is applied to the new
+commit.
