@@ -5,3 +5,26 @@ init"), an invisible file is put in place that basically
 brings git into the picture, so to speak. If you do not
 initialize the directory, you can't use git commands on it
 or do any commits to git
+
+2. How is the staging area different from the working
+directory and the repository? What value do you think it
+offers?
+A. The staging area is sort of like the wings of a theater.
+It's where files go to wait to get committed. That means you
+can do commits for as few or as many files as you want to
+change. You can also have more control over which files or
+directories are part of the repository.
+
+3. How can you use the staging area to make sure you have
+one commit per logical change?
+A. So, for example, if I were to change a description in my
+"cheat sheet" for git commands, and fix a typo in one
+reflection file, AND make a new entry in the other reflection
+file, I wouldn't necessarily want all of those to go under
+one commit. So I can add one file to the staging area at a
+time and commit each one individually, according to the
+smaller, logical changes. So the addition to git_commands
+would get its own commit & message, the typo would get its
+own commit, and the new entry to the second reflections
+file would get ITS own commit. And that way all three are
+much easier to track down in case something went wrong.
