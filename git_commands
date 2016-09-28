@@ -1,6 +1,11 @@
 git diff
 // Takes two arguements, the two commit IDs to compare,
 and outputs a comparison of those two files
+// When no arguments are given, diff is between the files
+in the working area and the staging area.
+// When using git diff --staged, differences listed are
+between those in the staging area and the most recent
+commit.
 
 git clone
 // Takes one argument; the url of the repository to clone
