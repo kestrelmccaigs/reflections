@@ -2,7 +2,7 @@ git diff
 // Takes two arguements, the two commit IDs to compare,
 and outputs a comparison of those two files
 // When no arguments are given, diff is between the files
-in the working area and the staging area.
+in the working directory and the staging area.
 // When using git diff --staged, differences listed are
 between those in the staging area and the most recent
 commit.
@@ -44,3 +44,7 @@ it is relatively short. use:
 in which to fill out a (potentially long) message. Save
 that file and quit and the message is applied to the new
 commit.
+
+git reset --hard
+//Discards any changes in files in either the working
+directory or the staging area. CAUTION: IRREVERSIBLE
