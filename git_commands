@@ -14,6 +14,9 @@ and outputs a copy of that repository to your computer
 git checkout
 // Takes one argument; the commit ID to restore, and sets
 the repository to the time of that ID
+git checkout master
+// Updates files to most recent commit (without needing the
+commit ID)
 
 git log
 // Takes no arguments. Will output a list of commits on
