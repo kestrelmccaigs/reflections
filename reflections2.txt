@@ -1,0 +1,7 @@
+1. What happens when you initialize a repository? Why
+do you need to do it?
+A. When you initialize a repository (with the command "git
+init"), an invisible file is put in place that basically
+brings git into the picture, so to speak. If you do not
+initialize the directory, you can't use git commands on it
+or do any commits to git
