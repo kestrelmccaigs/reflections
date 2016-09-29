@@ -64,3 +64,11 @@ git branch
 //No arguments returns a list of branches in the repository
 //One argument; a new branch name. Creates a new branch
 in the repository.
+* git branch -d [branch-name]
+//Deletes the specified branch. CAUTION: Make sure you no
+longer need the branch OR you have already merged the
+branch into another branch.
+
+git merge
+//Takes one argument; the branch needing to be merged with
+the current branch
