@@ -36,3 +36,7 @@ something new that you are not yet sure will work, or when
 you are doing big changes (changing the language or usability)
 and still want a stable version of the code to share with
 others.
+
+5. How do the diagrams help you visualize the branch structure?
+A. The diagrams make it easier to see the parent-child
+relationships between the branches.
