@@ -18,11 +18,17 @@ the repository to the time of that ID
 // Updates files to most recent commit (without needing the
 commit ID). Using a branch name as an argument switches files
 to that branch.
+* git checkout -b new_branch_name
+// For use when in the "detached HEAD" state. Essentially runs
+two commands: git branch new_branch_name and git
+checkout new_branch_name.
 
 git log
 // Takes no arguments. Will output a list of commits on
 the repository, starting with the most recent (use down
 arrow to navigate)
+* git log --graph --oneline branch1 branch2
+//Compares two branches in graph form.
 
 git init
 // takes no arguments. Preps a directory for commits
