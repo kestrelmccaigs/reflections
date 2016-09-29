@@ -40,3 +40,13 @@ others.
 5. How do the diagrams help you visualize the branch structure?
 A. The diagrams make it easier to see the parent-child
 relationships between the branches.
+
+6. What is the result of merging two branched together? Why
+do we represent it in the diagram the way we do?
+A. Things that are in both files are kept, while those that
+have been deleted since the last common commit are omitted
+and anything added since the same common commit are kept.
+Commits from both branches can then be accessed from
+the merged and later commits, organized by time stamp.
+So really, both the files themselves and their former
+commits are merged.
