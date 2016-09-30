@@ -6,13 +6,13 @@ between old and new versions, you can see what it was you changed
 and therefore what is most likely to have created the bug.
 
 2. How could having easy access to the entire history
-of a file make you a more efficient grogrammer in the long term?
+of a file make you a more efficient programmer in the long term?
 A. Well you can have some peace of mind, certainly. More importantly,
 if something HAD been working and no longer is, it's quick and
 easy to compare the old file to the new and see where something may
 have gone wrong.
 
-3. What do you think are teh pros and cons of manually choosing
+3. What do you think are the pros and cons of manually choosing
 when to create a commit, like you do in Git, vs. having versions
 automatically saved, like Google Docs does?
 A.
@@ -45,7 +45,7 @@ takes two arguments, the IDs of two different commits, to compare
 the files.
 
 6. How might using version control make you more confident to make
-changes that could break somelthing?
+changes that could break something?
 A. It makes it really easy to backtrack to earlier versions of the
 code if/when something goes horribly wrong! It's really easy to
 spot where bugs are introduced, as well. So if you back up your
