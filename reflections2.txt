@@ -50,3 +50,13 @@ Commits from both branches can then be accessed from
 the merged and later commits, organized by time stamp.
 So really, both the files themselves and their former
 commits are merged.
+
+7. What are the pros and cons of Git's automatic merging
+vs. always doing merges manually?
+A. Well merging everything manually would be extremely
+tedious, and the margin for human error would be
+very high. There's still a chance for computer error
+using Git's automatic merging, but it is lower than the
+margin for human error, I think. Git also has a clever
+way of dealing with potential conflicts within merges,
+which leaves the final decision to the user.
