@@ -41,7 +41,7 @@ others.
 A. The diagrams make it easier to see the parent-child
 relationships between the branches.
 
-6. What is the result of merging two branched together? Why
+6. What is the result of merging two branches together? Why
 do we represent it in the diagram the way we do?
 A. Things that are in both files are kept, while those that
 have been deleted since the last common commit are omitted
