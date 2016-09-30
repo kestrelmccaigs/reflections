@@ -29,6 +29,8 @@ the repository, starting with the most recent (use down
 arrow to navigate)
 * git log --graph --oneline branch1 branch2
 //Compares two branches in graph form.
+* git log -n [number]
+// Shows shows only [number] of recent commits
 
 git init
 // takes no arguments. Preps a directory for commits
