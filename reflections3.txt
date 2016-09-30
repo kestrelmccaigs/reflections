@@ -1,0 +1,5 @@
+1. When would you want to use a remote repository rather than keeping all your
+work local?
+A. One reason would be if you were doing group work with others. If more than one
+person is working on a project, it would be helpful for all parties to be able
+to access the files easily from a shared space.
