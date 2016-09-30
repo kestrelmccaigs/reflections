@@ -74,3 +74,17 @@ branch into another branch.
 git merge
 //Takes one argument; the branch needing to be merged with
 the current branch
+
+git remote
+// Takes optional arguments. No arguments returns a list
+of remotes related to the repository.
+* git remote add [remote_name] [repository_url]
+// Hooks git up to a github repository
+* git remote -v
+// -v stands for "verbose" and gives more information about
+the remotes within the repository.
+
+git push [remote_name] [branch]
+// Takes two arguments, the name of the remote to be used,
+and the branch you want to push. Pushes that branch into
+the remote on github.
