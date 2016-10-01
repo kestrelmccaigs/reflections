@@ -12,3 +12,18 @@ A. One good reason is so you have more control. If, for
 example, you are in the middle of working on something in a
 file, you wouldn't want Git to make changes on that file
 if someone else were to create a commit.
+
+3. Describe the differences between forks, clones, and
+branches. When would you use one instead of another?
+A. Forks are when you create a new version of someone else's
+repository within your own github account/own computer. It
+also links back to the original repository so the original
+person gets credit for their work, AND it makes it easier to
+make a pull request later on.
+Clones copy the existing repository onto your local computer
+so you can edit files from there. It doesn't necessarily
+effect anything on github unless you use push and have
+permissions to alter the github repository.
+Branches make an alternate path within a repository, where
+you can experiment with things or else have a few people work
+on the same project at the same time.
