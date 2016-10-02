@@ -20,10 +20,15 @@ repository within your own github account/own computer. It
 also links back to the original repository so the original
 person gets credit for their work, AND it makes it easier to
 make a pull request later on.
-Clones copy the existing repository onto your local computer
+   Clones copy the existing repository onto your local computer
 so you can edit files from there. It doesn't necessarily
 effect anything on github unless you use push and have
 permissions to alter the github repository.
-Branches make an alternate path within a repository, where
+   Branches make an alternate path within a repository, where
 you can experiment with things or else have a few people work
 on the same project at the same time.
+
+4. What is the benefit of having a copy of the last known
+state of the remote stored locally?
+A. You can check your work against it, I guess? I'm not really
+sure what the question is asking...
