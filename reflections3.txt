@@ -32,3 +32,20 @@ on the same project at the same time.
 state of the remote stored locally?
 A. You can check your work against it, I guess? I'm not really
 sure what the question is asking...
+
+5. How would you collaborate without using Git or GitHub? What
+would be easier, and what would be harder?
+A. One of the things that would get a lot harder would be doing
+merges manually. It would take longer. Another benefit of GitHub
+is that it helps to keep you up-to-date with changes your
+collaborators are making (though within your control--you can,
+for example, ignore emails of pull requests until you're ready
+to look at them).
+   Without GitHub you could either pass a file back and forth
+between you over email or perhaps work on the same files in
+something like Google Docs. But you would need to have a lot
+more open communication between you to keep track of who is
+doing what.
+	On the other hand, while having to keep open lines of
+communication might seem to slow things down, there is a benefit
+to knowing you're all on the same page.
