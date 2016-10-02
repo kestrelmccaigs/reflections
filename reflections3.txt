@@ -49,3 +49,16 @@ doing what.
 	On the other hand, while having to keep open lines of
 communication might seem to slow things down, there is a benefit
 to knowing you're all on the same page.
+
+6. When would you want to make changes in a seperate branch
+rather than directly in master? What benefits does each
+approach have?
+A. Making changes directly to master makes things more
+straightforward in terms of workflow, but it does have
+disadvantages. One of these is that using branches gives you
+more leeway to experiment with potentially buggy code without
+breaking the code in the master branch. Another advantage
+of working in branches is that you can do something in the
+code within a sort of "closed" environment on your own without
+worrying too much about what other changes are happening in
+other parts of the code.
